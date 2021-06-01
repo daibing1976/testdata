@@ -1,0 +1,13 @@
+{
+	"stream_id": "f8ef1742-603d-4707-a268-aecdae1e3860",
+	"duration": 2849.732,
+	"stream_type": "on_demand",
+	"manifest_format": "hls",
+	"time_events_url": "https://pubads.g.doubleclick.net/ondemand/hls/content/2555791/vid/ES_3087085/SIN/streams/f8ef1742-603d-4707-a268-aecdae1e3860/time-events.json",
+	"subtitles": [{
+		"language": "es-ES",
+		"language_name": "español de España",
+		"ttml": "https://pubads.g.doubleclick.net/ondemand/hls/content/2555791/vid/ES_3087085/SIN/streams/f8ef1742-603d-4707-a268-aecdae1e3860/ttml/es-ES.ttml",
+		"webvtt": "https://pubads.g.doubleclick.net/ondemand/hls/content/2555791/vid/ES_3087085/SIN/streams/f8ef1742-603d-4707-a268-aecdae1e3860/vtt/es-ES.vtt"
+	}]
+}
