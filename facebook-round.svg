@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/90x90/facebook-round</title>
+    <desc>Created with Sketch.</desc>
+    <g id="self-created-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/90x90/miscellanous/facebook-round">
+            <g id="facebook-icon_round">
+                <circle id="Oval" fill="#3C5A9A" cx="44.9916102" cy="44.9665932" r="44.9237288"></circle>
+                <path d="M59.5989153,13.8320847 L49.6472034,13.8320847 C43.7415254,13.8320847 37.1727458,16.3159322 37.1727458,24.8764576 C37.2015763,27.8592712 37.1727458,30.7159322 37.1727458,33.9309153 L30.340678,33.9309153 L30.340678,44.8027627 L37.3841695,44.8027627 L37.3841695,76.1009492 L50.3269322,76.1009492 L50.3269322,44.5962203 L58.8696102,44.5962203 L59.6425424,33.9004068 L50.1039153,33.9004068 C50.1039153,33.9004068 50.1252712,29.1424576 50.1039153,27.7607288 C50.1039153,24.3777966 53.6239831,24.5715254 53.8357119,24.5715254 C55.5107797,24.5715254 58.7677119,24.5764068 59.6037966,24.5715254 L59.6037966,13.8320847 L59.5989153,13.8320847 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
