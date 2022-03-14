@@ -1,182 +1,173 @@
 {
-    "base": {
-      "services": [
-        {
-          "nlid": "nl.service.app",
-          "url": "https://dce-frontoffice.imggaming.com/api",
-          "params": {
-          		"realm": "dce.univision",
-                "apiKey": "1cb7a682-7a37-4fed-b589-63c54223c146",
-                "env": "prod"
-          }
-        },
-        {
-          "nlid": "nl.service.heartbeat",
-          "url": "https://guide.imggaming.com/prod",
-        },
-        {
-          "nlid": "nl.service.googlevideoad",
-          "params": {
-            "bitrate": 4500,
-            "googleAdUrl": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/6881/tvios.unow_vod_${usertype}&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&url=com.univision.univisionnow&description_url=https%3A%2F%2Fwww.univisionnow.com&correlator=${timestamp}&ad_rule=1&cmsid=2474735&vid=${vid}&cust_params=pw%3D${pw}%26ph%3D${ph}%26appbundle%3D${bid}",
-            "liveAdUnit": "/6881/tvios.unow_simulcast_${usertype}/cadenas/${channelname}",
-            "liveCustomParams": "pw=${pw}&ph=${ph}&appbundle=${bid}&type=${type}&channel=${channel}&program=${program}"
-          },
-          "enabled": true
+  "base": {
+    "services": [
+      {
+        "nlid": "nl.service.app",
+        "url": "https://dce-frontoffice.imggaming.com/api",
+        "params": {
+          "realm": "dce.univision",
+          "apiKey": "1cb7a682-7a37-4fed-b589-63c54223c146",
+          "env": "prod"
         }
-      ],
-      "appParams": [
-        {
-          "nlid": "nl.app.settings",
-          "params": {
-            "debugLog": true,
-            "enableNielsen": true,
-            "backgroundAudio": true,
-            "vodPageSize": 15,
-            "epgDayRange": "3,3",
-            "dvrTime": 72,
-            "epgDelayTime": 60,
-            "channelVodDelayTime": 25,
-            "epgLoadBuffer": 4,
-            "splashSponsorTime": 0,
-            "dualLanguage": true,
-            "enableEpgBlackout": false,
-            "adStitchingEnabled": true,
-            "forceNotificationEnabled": true,
-            "enableAccountPrompt": true,
-            "subLivePreroll": true,
-            "freeLivePreroll": true,
-            "subVodPreMidroll": true,
-            "freeVodPreMidroll": true,
-            "vodCompleteTime": 120,
-            "enableDowngrade": false,
-            "enableEpgBlock": true,
-            "checkPinOnce": true,
-            "channelDefaultTVRating": "",
-            "programDefaultTVRating": "TV-14",
-            "playerTVRatingDisplayTime": 15,
-            "enableLiveDrm": false,
-            "enableVodDrm": false,
-            "disableHeartbeat": true,
-            "enableInterstitialScreen": false
+      },
+      {
+        "nlid": "nl.service.heartbeat",
+        "url": "https://guide.imggaming.com/prod"
+      },
+      {
+        "nlid": "nl.service.googlevideoad",
+        "params": {
+          "bitrate": 4500,
+          "googleAdUrl": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/6881/tvios.unow_vod_${usertype}&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&url=com.univision.univisionnow&description_url=https%3A%2F%2Fwww.univisionnow.com&correlator=${timestamp}&ad_rule=1&cmsid=2474735&vid=${vid}&cust_params=pw%3D${pw}%26ph%3D${ph}%26appbundle%3D${bid}",
+          "liveAdUnit": "/6881/tvios.unow_simulcast_${usertype}/cadenas/${channelname}",
+          "liveCustomParams": "pw=${pw}&ph=${ph}&appbundle=${bid}&type=${type}&channel=${channel}&program=${program}"
+        },
+        "enabled": true
+      }
+    ],
+    "appParams": [
+      {
+        "nlid": "nl.app.settings",
+        "params": {
+          "debugLog": true,
+          "enableNielsen": true,
+          "backgroundAudio": true,
+          "vodPageSize": 15,
+          "epgDayRange": "3,3",
+          "dvrTime": 72,
+          "epgDelayTime": 60,
+          "channelVodDelayTime": 25,
+          "epgLoadBuffer": 4,
+          "splashSponsorTime": 0,
+          "dualLanguage": true,
+          "enableEpgBlackout": false,
+          "adStitchingEnabled": true,
+          "forceNotificationEnabled": true,
+          "enableAccountPrompt": true,
+          "subLivePreroll": true,
+          "freeLivePreroll": true,
+          "subVodPreMidroll": true,
+          "freeVodPreMidroll": true,
+          "vodCompleteTime": 120,
+          "enableDowngrade": false,
+          "enableEpgBlock": true,
+          "checkPinOnce": true,
+          "channelDefaultTVRating": "",
+          "programDefaultTVRating": "TV-14",
+          "playerTVRatingDisplayTime": 15,
+          "enableLiveDrm": false,
+          "enableVodDrm": false,
+          "disableHeartbeat": true,
+          "enableInterstitialScreen": false
+        }
+      },
+      {
+        "nlid": "nl.app.greeting",
+        "params": {
+          "title": "@nlkey/nl.app.greeting.title",
+          "message": "@nlkey/nl.app.greeting.message",
+          "forceUpgrade": false,
+          "upgradeUrl": ""
+        },
+        "enabled": false
+      },
+      {
+        "nlid": "nl.app.info",
+        "params": {
+          "nlurl": "http://www.neulion.com",
+          "advInfo": true,
+          "email": {
+            "enable": false,
+            "showLibrary": false,
+            "to": "support@univisionnow.com",
+            "subject": "@nlkey/EmailSubject"
           }
-        },
-        {
-          "nlid": "nl.app.greeting",
-          "params": {
-            "title": "@nlkey/nl.app.greeting.title",
-            "message": "@nlkey/nl.app.greeting.message",
-            "forceUpgrade": false,
-            "upgradeUrl": ""
-          },
-          "enabled": false
-        },
-        {
-          "nlid": "nl.app.info",
-          "params": {
-            "nlurl": "http://www.neulion.com",
-            "advInfo": true,
-            "email": {
-              "enable": false,
-              "showLibrary": false,
-              "to": "support@univisionnow.com",
-              "subject": "@nlkey/EmailSubject"
+        }
+      },
+      {
+        "nlid": "nl.app.bitrates",
+        "params": {
+          "displays": [
+            {
+              "cap": "1600",
+              "title": "nl.app.more.bitrate.high"
+            },
+            {
+              "cap": "800",
+              "title": "nl.app.more.bitrate.good"
+            },
+            {
+              "cap": "min",
+              "title": "nl.app.more.bitrate.audioOnly"
             }
-          }
-        },
-        {
-          "nlid": "nl.app.bitrates",
-          "params": {
-            "displays": [
-              {
-                "cap": "1600",
-                "title": "nl.app.more.bitrate.high"
-              },
-              {
-                "cap": "800",
-                "title": "nl.app.more.bitrate.good"
-              },
-              {
-                "cap": "min",
-                "title": "nl.app.more.bitrate.audioOnly"
-              }
-            ]
-          }
-        },
-        {
-          "nlid": "nl.player.strategy",
-          "params": {
-            "sdk": 100,
-            "decoder": "neulion_hardware",
-            "comments": "neulion_software/neulion_hardware/native_hardware"
-          }
-        },
-        {
-          "nlid": "nl.service.interval",
-          "params": {
-            "default": 300,
-            "home": 300,
-            "dl": 300,
-            "channel": 300,
-            "epg": 600,
-            "freeTrialTime": 300,
-            "freeTrialInterval": 86400,
-            "whaton": 60,
-            "linkReceiptDelay": 8,
-            "linkDeviceDelay": 8,
-            "parental": 300
-          }
-        },
-        {
-          "nlid": "nl.service.gaa",
-          "params": {
-            "gaa": "UA-68611916-1"
-          }
-        },
-        {
-          "nlid": "nl.service.products",
-          "params": {
-            "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUn1Oq4+329SoTijEFYgk63cy1hmhnFdlmwhV9HFMDu8Y16DfXfUatOKu7MKjnqzfaUyc6O87jLQLayZXwBVKVkjvfYIh/gBWHaQ0rYykIMWOWEbOHLfG5YmJ8m4Qzaqse5vjKhe4fhMASp+QpwDFl6Kfhc6dnB8+ChEZUVgE59ICT7D4QU+DIX2aC9LYzb1u4NeEY4ZhQTBrXoIV8N6MEQtRE6GTzzfNjgOT0mjpxcUOuPPViCxP1DNGvt7aHD6zgngfrCyBk/swiisNrg39SOinBejZ3KmsLPJnF5snUgs3q59jdLKIto676nCtSoXJlhDmryrTu0wYUXxV/VvrQIDAQAB",
-            "AppleSkuPrefix": "com.univision.univisionnow.iap.autorenew",
-            "GoogleSkuPrefix": "com.univision.univisionnow.iap.autorenew",
-            "AppleSkuPermiumTier": "",
-            "AppleSkuPlusTier": "",
-            "AppleSkuAnnualTier": ".tier8699",
-            "GoogleSkuPermiumTier": ".tier799",
-            "GoogleSkuPlusTier": ".tier299",
-            "GoogleSkuAnnualTier": ".tier8699",
-            "monthlyPackage": "BANNUAL,BMONTHLY",
-            "enableSku": "BANNUAL,BMONTHLY,BUNOWVODM"
-          }
+          ]
         }
-      ],
-      "dataSource": [
+      },
+      {
+        "nlid": "nl.player.strategy",
+        "params": {
+          "sdk": 100,
+          "decoder": "neulion_hardware",
+          "comments": "neulion_software/neulion_hardware/native_hardware"
+        }
+      },
+      {
+        "nlid": "nl.service.interval",
+        "params": {
+          "default": 300,
+          "home": 300,
+          "dl": 300,
+          "channel": 300,
+          "epg": 600,
+          "freeTrialTime": 300,
+          "freeTrialInterval": 86400,
+          "whaton": 60,
+          "linkReceiptDelay": 8,
+          "linkDeviceDelay": 8,
+          "parental": 300
+        }
+      },
+      {
+        "nlid": "nl.service.gaa",
+        "params": {
+          "gaa": "UA-68611916-1"
+        }
+      },
+      {
+        "nlid": "nl.service.products",
+        "params": {
+          "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUn1Oq4+329SoTijEFYgk63cy1hmhnFdlmwhV9HFMDu8Y16DfXfUatOKu7MKjnqzfaUyc6O87jLQLayZXwBVKVkjvfYIh/gBWHaQ0rYykIMWOWEbOHLfG5YmJ8m4Qzaqse5vjKhe4fhMASp+QpwDFl6Kfhc6dnB8+ChEZUVgE59ICT7D4QU+DIX2aC9LYzb1u4NeEY4ZhQTBrXoIV8N6MEQtRE6GTzzfNjgOT0mjpxcUOuPPViCxP1DNGvt7aHD6zgngfrCyBk/swiisNrg39SOinBejZ3KmsLPJnF5snUgs3q59jdLKIto676nCtSoXJlhDmryrTu0wYUXxV/VvrQIDAQAB",
+          "AppleSkuPrefix": "com.univision.univisionnow.iap.autorenew",
+          "GoogleSkuPrefix": "com.univision.univisionnow.iap.autorenew",
+          "AppleSkuPermiumTier": "",
+          "AppleSkuPlusTier": "",
+          "AppleSkuAnnualTier": ".tier8699",
+          "GoogleSkuPermiumTier": ".tier799",
+          "GoogleSkuPlusTier": ".tier299",
+          "GoogleSkuAnnualTier": ".tier8699",
+          "monthlyPackage": "BANNUAL,BMONTHLY",
+          "enableSku": "BANNUAL,BMONTHLY,BUNOWVODM"
+        }
+      }
+    ],
+    "dataSource": [
+      {
+        "nlid": "nl.feed.localization",
+        "url": "https://daibing1976.github.io/testdata/Localizable_es.ini"
+      }
+    ]
+  },
+  "redirect": {},
+  "locale": {
+    "country": {},
+    "language": {
+      "en": [
         {
           "nlid": "nl.feed.localization",
-          "url": "https://daibing1976.github.io/testdata/Localizable_es.ini"
-        },
-        {
-          "nlid": "nl.feed.drm.fairplay",
-          "url": "https://staging-lic2fairplay.sd-ngp.net/licensing"
-        },
-        {
-          "nlid": "nl.feed.drm.widevine",
-          "url": "https://staging-lic2widevine.sd-ngp.net/proxy"
+          "url": "https://neulion-a.akamaihd.net/nlmobile/univision/now/assets/localization/Localizable_en_4.3.string"
         }
       ]
     },
-    "redirect": {},
-    "locale": {
-      "country": {},
-      "language": {
-        "en": [
-          {
-            "nlid": "nl.feed.localization",
-            "url": "https://neulion-a.akamaihd.net/nlmobile/univision/now/assets/localization/Localizable_en_4.3.string"
-          }
-        ]
-      },
-      "platforms": {}
-    }
+    "platforms": {}
   }
-  
+}
