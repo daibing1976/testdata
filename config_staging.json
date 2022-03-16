@@ -168,6 +168,25 @@
         }
       ]
     },
-    "platforms": {}
+    "platforms": {
+      "fireTv": [
+          {
+            "nlid": "nl.service.app", 
+            "params": 
+				{
+                   "apiKey": "d1788944-6918-47a7-8307-70dd5188bde5"
+                }
+          }
+      ],
+	  "androidTv": [
+          {
+            "nlid": "nl.service.app", 
+            "params": 
+				{
+                   "apiKey": "af16c5f2-4359-4828-a12e-fab80f26162a"
+                }
+          }
+      ]
+	}
   }
 }
