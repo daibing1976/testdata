@@ -6,7 +6,7 @@
         "url": "https://dce-frontoffice-stag.imggaming.com/api",
         "params": {
           "realm": "dce.univision",
-          "apiKey": "e7f845e9-a101-43a0-b724-a9feb3c42268",
+          "apiKey": "1cb7a682-7a37-4fed-b589-63c54223c146",
           "env": "staging"
         }
       },
@@ -162,27 +162,19 @@
     "country": {},
     "language": {},
     "platforms": {
-      "ipad": [
+      "fireTv": [
         {
           "nlid": "nl.service.app",
           "params": {
-            "apiKey": "4f8a659d-20a8-4189-8b96-3aeff8aee21b"
+            "apiKey": "d1788944-6918-47a7-8307-70dd5188bde5"
           }
         }
       ],
-      "androidPhone": [
+      "androidTv": [
         {
           "nlid": "nl.service.app",
           "params": {
-            "apiKey": "2903336e-ada6-4f8b-b5f8-a160452b20fc"
-          }
-        }
-      ],
-      "androidTablet": [
-        {
-          "nlid": "nl.service.app",
-          "params": {
-            "apiKey": "9c268f02-5956-4a3c-afea-88e9c0db8d72"
+            "apiKey": "af16c5f2-4359-4828-a12e-fab80f26162a"
           }
         }
       ]
