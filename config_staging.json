@@ -56,7 +56,8 @@
 					"enableLiveDrm": false,
 					"enableVodDrm": false,
 					"disableHeartbeat": true,
-					"enableInterstitialScreen": false
+					"enableInterstitialScreen": false,
+                    "universalLink":"https://id6f4g.xinstall.com.cn/tolink/"
 				}
 			},
 			{
