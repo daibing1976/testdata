@@ -149,7 +149,14 @@
 				"monthlyPackage": "BANNUAL,BMONTHLY",
 				"enableSku": "BANNUAL,BMONTHLY,BUNOWVODM"
 			}
-		}],
+		}, {
+            "nlid": "nl.service.chromecast",
+            "enabled": true,
+            "params": {
+              "enablePlayList": false,
+              "appId": "182B8C71"
+            }
+        }],
 		"dataSource": [{
 			"nlid": "nl.feed.localization",
 			"url": "https://daibing1976.github.io/testdata/Localizable_es.ini"
