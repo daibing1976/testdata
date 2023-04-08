@@ -1,0 +1,419 @@
+{
+  "matchInfo": {
+    "gameClock": "72:18",
+    "scoreInfo": "2-1",
+    "playbackUrl": "https://daibing1976.github.io/testdata/mls/hls/playlist.m3u8",
+    "homeTeam": {
+      "code": "LAFC",
+      "name": "Los Angeles Football Club",
+      "score": 2,
+      "logo": "https://daibing1976.github.io/testdata/mls/LAFC-logo.png"
+    },
+    "awayTeam": {
+      "code": "ATL",
+      "name": "Atlanta United",
+      "score": 1,
+      "logo": "https://daibing1976.github.io/testdata/mls/ATL-logo.png"
+    }
+  },
+  "timeLine": {
+    "title": "Timeline",
+    "data": [
+      {
+        "type": "ko",
+        "name": "KO",
+        "gameClockMin": "0"
+      },
+      {
+        "type": "goal",
+        "name": "GOAL",
+        "gameClockMin": "17",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "goal",
+        "name": "GOAL",
+        "gameClockMin": "28",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "substitution",
+        "name": "Substitution",
+        "gameClockMin": "40",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "yellow_card",
+        "name": "Yellow Card",
+        "gameClockMin": "40",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "substitution",
+        "name": "Substitution",
+        "gameClockMin": "42",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "ht",
+        "name": "HT",
+        "gameClockMin": "45"
+      },
+      {
+        "type": "yellow_card",
+        "name": "Yellow Card",
+        "gameClockMin": "48",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "yellow_card",
+        "name": "Yellow Card",
+        "gameClockMin": "62",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "goal",
+        "name": "Goal",
+        "gameClockMin": "65",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip7.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "ft",
+        "name": "FT",
+        "gameClockMin": "90"
+      }
+    ]
+  },
+  "highLights": {
+    "title": "Highlights",
+    "data": [
+      {
+        "type": "goal",
+        "name": "GOALS",
+        "gameClockMin": "17",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "SHOT",
+        "gameClockMin": "22",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "goal",
+        "name": "GOAL",
+        "gameClockMin": "28",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "SHOT",
+        "gameClockMin": "35",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "SHOT",
+        "gameClockMin": "42",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "goal",
+        "name": "GOAL",
+        "gameClockMin": "55",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "SHOT",
+        "gameClockMin": "61",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "goal",
+        "name": "GOAL",
+        "gameClockMin": "65",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip7.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      }
+    ]
+  },
+  "matchStats": {
+    "title": "Match Stats",
+    "data": [
+      {
+        "type": "goal",
+        "name": "Goals",
+        "left": 2,
+        "right": 1,
+        "gameClockMin": "17",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "Shots",
+        "left": 15,
+        "right": 8,
+        "gameClockMin": "22",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "Shots On Target",
+        "left": 15,
+        "right": 8,
+        "gameClockMin": "28",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "Shots outside Box",
+        "left": 15,
+        "right": 8,
+        "gameClockMin": "35",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "Blocked Shots",
+        "left": 15,
+        "right": 8,
+        "gameClockMin": "42",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "goal",
+        "name": "Duels Won",
+        "left": 15,
+        "right": 8,
+        "gameClockMin": "55",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "shot",
+        "name": "Saves",
+        "left": 15,
+        "right": 8,
+        "gameClockMin": "61",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "corners",
+        "name": "Corners",
+        "left": 4,
+        "right": 7,
+        "gameClockMin": "65",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip7.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "corners",
+        "name": "Fouls",
+        "left": 8,
+        "right": 14,
+        "gameClockMin": "65",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip8.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "corners",
+        "name": "Poss. %",
+        "left": 71,
+        "right": 29,
+        "gameClockMin": "65",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "type": "corners",
+        "name": "Offsides",
+        "left": 3,
+        "right": 5,
+        "gameClockMin": "65",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      }
+    ]
+  },
+  "soccer": {
+    "title": "SOCCER",
+    "data": [
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      }
+    ]
+  },
+  "tennis": {
+    "title": "TENNIS",
+    "data": [
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      }
+    ]
+  },
+  "snooker": {
+    "title": "SNOOKER",
+    "data": [
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip7.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      },
+      {
+        "h": "NYC",
+        "hc": "3-0",
+        "a": "NYC",
+        "ac": "32:12",
+        "gifUrl": "https://daibing1976.github.io/testdata/mls/clip8.gif",
+        "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
+      }
+    ]
+  }
+}
