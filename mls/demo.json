@@ -7,13 +7,13 @@
       "code": "LAFC",
       "name": "Los Angeles Football Club",
       "score": 2,
-      "logo": "https://daibing1976.github.io/testdata/mls/LAFC-logo.png"
+      "logo": "https://daibing1976.github.io/testdata/mls/LAFC-Logo.png"
     },
     "awayTeam": {
       "code": "ATL",
       "name": "Atlanta United",
       "score": 1,
-      "logo": "https://daibing1976.github.io/testdata/mls/ATL-logo.png"
+      "logo": "https://daibing1976.github.io/testdata/mls/ATL-Logo.png"
     }
   },
   "timeLine": {
