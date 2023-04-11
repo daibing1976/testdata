@@ -27,6 +27,7 @@
       {
         "type": "goal",
         "name": "GOAL",
+      	"code": "ATL",
         "gameClockMin": "17",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -34,6 +35,7 @@
       {
         "type": "goal",
         "name": "GOAL",
+      	"code": "ATL",
         "gameClockMin": "28",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -41,6 +43,7 @@
       {
         "type": "substitution",
         "name": "Substitution",
+      	"code": "ATL",
         "gameClockMin": "40",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -48,6 +51,7 @@
       {
         "type": "yellow_card",
         "name": "Yellow Card",
+      	"code": "ATL",
         "gameClockMin": "40",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -55,6 +59,7 @@
       {
         "type": "substitution",
         "name": "Substitution",
+      	"code": "LAFC",
         "gameClockMin": "42",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -67,6 +72,7 @@
       {
         "type": "yellow_card",
         "name": "Yellow Card",
+      	"code": "ATL",
         "gameClockMin": "48",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -74,6 +80,7 @@
       {
         "type": "yellow_card",
         "name": "Yellow Card",
+      	"code": "ATL",
         "gameClockMin": "62",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -81,6 +88,7 @@
       {
         "type": "goal",
         "name": "Goal",
+      	"code": "LAFC",
         "gameClockMin": "65",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip7.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
