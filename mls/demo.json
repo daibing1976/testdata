@@ -29,6 +29,7 @@
         "name": "GOAL",
       	"code": "ATL",
         "gameClockMin": "17",
+        "desc":"Gareth Bale 17'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -37,6 +38,7 @@
         "name": "GOAL",
       	"code": "ATL",
         "gameClockMin": "28",
+        "desc":"Gareth Bale 28'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -53,6 +55,7 @@
         "name": "Yellow Card",
       	"code": "ATL",
         "gameClockMin": "40",
+        "desc":"Gareth Bale 40'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -60,6 +63,7 @@
         "type": "substitution",
         "name": "Substitution",
       	"code": "LAFC",
+        "desc":"Gareth Bale 42'",
         "gameClockMin": "42",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -74,6 +78,7 @@
         "name": "Yellow Card",
       	"code": "ATL",
         "gameClockMin": "48",
+        "desc":"Gareth Bale 48'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -82,6 +87,7 @@
         "name": "Yellow Card",
       	"code": "ATL",
         "gameClockMin": "62",
+        "desc":"Gareth Bale 62'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -90,6 +96,7 @@
         "name": "Goal",
       	"code": "LAFC",
         "gameClockMin": "65",
+        "desc":"Gareth Bale 65'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip7.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -107,6 +114,7 @@
         "type": "goal",
         "name": "GOALS",
         "gameClockMin": "17",
+        "desc":"Gareth Bale 17'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -114,6 +122,7 @@
         "type": "shot",
         "name": "SHOT",
         "gameClockMin": "22",
+        "desc":"Gareth Bale 22'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -121,6 +130,7 @@
         "type": "goal",
         "name": "GOAL",
         "gameClockMin": "28",
+        "desc":"Gareth Bale 28'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -128,6 +138,7 @@
         "type": "shot",
         "name": "SHOT",
         "gameClockMin": "35",
+        "desc":"Gareth Bale 35'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -135,6 +146,7 @@
         "type": "shot",
         "name": "SHOT",
         "gameClockMin": "42",
+        "desc":"Gareth Bale 42'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip4.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -142,6 +154,7 @@
         "type": "goal",
         "name": "GOAL",
         "gameClockMin": "55",
+        "desc":"Gareth Bale 55'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip5.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -149,6 +162,7 @@
         "type": "shot",
         "name": "SHOT",
         "gameClockMin": "61",
+        "desc":"Gareth Bale 61'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip6.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -156,6 +170,7 @@
         "type": "goal",
         "name": "GOAL",
         "gameClockMin": "65",
+        "desc":"Gareth Bale 65'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip7.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       }
