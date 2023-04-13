@@ -37,7 +37,7 @@
         "type": "goal",
         "name": "GOAL",
       	"code": "ATL",
-        "gameClockMin": "28",
+        "gameClockMin": "24",
         "desc":"Gareth Bale 28'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip1.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
@@ -46,7 +46,7 @@
         "type": "substitution",
         "name": "Substitution",
       	"code": "ATL",
-        "gameClockMin": "40",
+        "gameClockMin": "36",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip2.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
       },
@@ -54,7 +54,7 @@
         "type": "yellow_card",
         "name": "Yellow Card",
       	"code": "ATL",
-        "gameClockMin": "40",
+        "gameClockMin": "36",
         "desc":"Gareth Bale 40'",
         "gifUrl": "https://daibing1976.github.io/testdata/mls/clip3.gif",
         "videoUrl": "https://daibing1976.github.io/testdata/mls/mid.mp4"
